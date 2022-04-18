@@ -1,0 +1,49 @@
+.container-principal {
+  background-color: var(--cor-12);
+}
+.header-cabecalho {
+  display: flex;
+  max-width: 1408px;
+  margin: 0 auto;
+  padding-left: 64px;
+  padding-right: 64px;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.header-cabecalho h1 a {
+  font-size: 1.5rem;
+  color: var(--cor-0);
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 400;
+}
+.header-cadastro {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  font-family: "Roboto", sans-serif;
+}
+.header-cadastro li a {
+  font-size: 0.875rem;
+  align-items: center;
+}
+.cadastro-idioma {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 10px;
+
+  color: var(--cor-0);
+}
+.cadastro-idioma:hover {
+  background-color: var(--cor-9);
+  border-radius: 18px;
+}
+.cadastro-conta {
+  color: var(--cor-12);
+  padding: 10px;
+  background-color: var(--cor-0);
+  border-radius: 20px;
+}
