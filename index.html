@@ -5,37 +5,186 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Uber</title>
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;500;600;700&display=swap"
-      rel="stylesheet"/>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+    rel="stylesheet"
   </head>
   <body>
     <header class="container-principal">
       <div class="header-cabecalho">
         <h1><a href=""> Uber</a></h1>
         <ul class="header-cadastro">
-            <li><a class="cadastro-idioma" href=""><img src="./img/language_white_18dp.svg" alt="">PT-BR</a></li>
-            <li><a class="cadastro-conta" href="">Já tem uma conta?</a></li>
+          <li>
+            <a class="cadastro-idioma" href=""
+              ><img src="./img/language_white_18dp.svg" alt="" />PT-BR</a
+            >
+          </li>
+          <li><a class="cadastro-conta" href="">Já tem uma conta?</a></li>
         </ul>
       </div>
     </header>
     <main class="container-conteudo">
-        <div class="container-promocao">
-            <article class="promocao">
-                <img class="img-conteudo" src="./img/noise_control_off_black_48dp.svg" alt="">
-                <div class="promocao-adicional">
-                    <h2>Ganhe um adicional de R$ 250 ao concluir suas primeiras 100<br>viagens em até 90 dias</h2>
-                    <p>Para resgatar sua recompensa, use o código de convite e cadastre-se hoje.</p>
-                </div>
-                
-            </article>
+      <div class="container-promocao">
+        <article class="promocao">
+          <div class="promocao-adicional">
+            <img
+              class="img-conteudo"
+              src="./img/noise_control_off_black_48dp.svg"
+              alt=""
+            />
+            <div class="promocao-conteudo">
+              <h2>
+                Ganhe um adicional de R$ 250 ao concluir suas primeiras 100<br />viagens
+                em até 90 dias
+              </h2>
+              <p>
+                Para resgatar sua recompensa, use o código de convite e
+                cadastre-se hoje.
+              </p>
+            </div>
+          </div>
+        </article>
+      </div>
+      <section class="cadastro-container">
+        <div class="cadastro-motorista">
+          <div class="informacao-motorista">
+            <h2>Dirija pelo app da Uber</h2>
+            <p>Você escolhe quando quer ganhar dinheiro.</p>
+            <h3>Cadastre-se</h3>
+          </div>
+          <div class="conteudo-cadastro">
+            <form class="setor-cadastro" action="./">
+              <caption>
+                <h3>Cadastre-se</h3>
+              </caption>
+              <div class="informacao-carro">
+                <input type="radio" name="carro" />
+                <label for="tenho">Eu tenho um carro</label>
+                <input type="radio" name="carro" />
+                <label for="tenho">Eu preciso de um carro</label>
+              </div>
+              <div class="nome">
+                <input type="text" name="nome" placeholder="Nome" />
+                <input type="text" name="sobrenome" placeholder="sobrenome" />
+              </div>
+              <div>
+                <input
+                  class="contato"
+                  type="email"
+                  id="email"
+                  name="email"
+                  placeholder="E-mail"
+                />
+                <input
+                  class="contato"
+                  type="password"
+                  id="senha"
+                  name="senha"
+                  placeholder="Senha"
+                />
+                <input
+                  class="contato"
+                  type="tel"
+                  id="telefone"
+                  name="telefone"
+                  placeholder="Telefone"
+                />
+                <input
+                  class="contato"
+                  type="text"
+                  id="capital"
+                  name="capital"
+                  placeholder="Cidade,Estado,País"
+                />
+                <input
+                  class="contato"
+                  type="text"
+                  id="nome"
+                  name="nome"
+                  placeholder="Nome"
+                />
+              </div>
+
+              <div>
+                <p class="termos">
+                  Ao continuar, eu concordo com os
+                  <a class="politica" href="">Termos de Uso</a> e afirmo que li
+                  a
+                  <a class="politica" href="">Política de Privacidade.</a>
+                </p>
+                <p class="termos">
+                  Também concordo que a Uber ou seus representantes podem entrar
+                  em contato comigo por e-mail, telefone, SMS (inclusive por
+                  meios automatizados) ou WhatsApp, no endereço de e-mail ou
+                  número que eu fornecer, para fins de marketing e suporte.
+                </p>
+              </div>
+              <div class="botao">
+                <button class="botao-secundario">Avançar</button>
+                <p>Já tem uma conta?<a href=""> Entrar</a></p>
+              </div>
+            </form>
+          </div>
         </div>
+      </section>
+      <article class="informacao-principal">
+        <div class="informacao-container">
+          <h2>Dirija quando quiser</h2>
+          <div class="informacao-tecnologia">
+            <img src="./img/money.svg" alt="" />
+            <h3>Ganhe dinheiro a qualquer hora, em qualquer lugar</h3>
+            <p>
+              Você decide o quanto quer dirigir e ganhar. Quanto mais você
+              dirigir, mais poderá ganhar. Além disso, os valores são
+              depositados automaticamente toda semana.
+            </p>
+          </div>
+          <div class="informacao-tecnologia">
+            <img src="./img/calendar.svg" alt="" />
+            <h3>Faça o seu próprio horário</h3>
+            <p>
+              Dirija apenas quando for conveniente para você. Sem escritório ou
+              chefe. Na Uber, você pode começar e parar de dirigir quando
+              quiser, porque é você quem está no comando.
+            </p>
+          </div>
+          <div class="informacao-tecnologia">
+            <img src="./img/documentCheck.svg" alt="" />
+            <h3>Segurança ao volante</h3>
+            <p>
+              Segurança é nossa prioridade. Nossa tecnologia nos permite focar
+              na segurança dos motoristas parceiros antes, durante e depois de
+              cada viagem.
+            </p>
+          </div>
+          <div class="informacao-ganhos">
+            <p>
+              Esta oferta é válida apenas para motoristas parceiros que clicaram
+              no anúncio sobre a promoção e se inscreveram na página
+              correspondente. Você ganha um valor promocional de R$ 250 para
+              suas primeiras 100 viagens como um novo motorista parceiro. Para
+              poder participar, os motoristas parceiros devem se inscrever nesta
+              cidade (Bauru) e concluir 100 viagens com usuários diferentes em
+              até 90 dias depois da inscrição. Viagens canceladas não contam
+              como concluídas. Viagens realizadas pelo app do Uber Eats não
+              participam dessa promoção. Nos reservamos o direito de reter ou
+              debitar pagamentos caso haja prova ou suspeita de erro, fraude,
+              ação ilegal ou violação dos termos de motorista parceiro ou destes
+              termos. Promoção disponível por tempo limitado. Termos e condições
+              sujeitos a alterações.
+            </p>
+          </div>
+        </div>
+      </article>
     </main>
   </body>
 </html>
