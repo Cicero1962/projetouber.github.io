@@ -76,6 +76,7 @@ input {
   box-shadow: 0 0 0 0;
   border: 0 none;
   outline: 0;
+  font-size: 16px;
 }
 form h3 {
   font-size: 24px;
@@ -145,6 +146,7 @@ form h3 {
   margin: 0 auto;
   gap: 40px;
   padding-top: 80px;
+  padding-bottom: 80px;
 }
 
 .informacao-container h2 {
@@ -173,4 +175,87 @@ form h3 {
 .informacao-ganhos {
   color: var(--cor-8);
   font-size: 16px;
+}
+.footer-container {
+  display: flex;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding-left: 64px;
+  padding-right: 64px;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 60px;
+  height: 179px;
+}
+.footer-central {
+  display: block;
+  margin-bottom: 80px;
+}
+.footer-endereco {
+  text-align: end;
+  align-self: flex-start;
+}
+.footer-principal {
+  background-color: var(--cor-12);
+}
+.footer-central h2 {
+  color: var(--cor-0);
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 500;
+  margin-bottom: 30px;
+  font-size: 24px;
+}
+.footer-central a {
+  position: relative;
+  color: var(--cor-0);
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+}
+.footer-central a::after {
+  position: absolute;
+  display: block;
+  content: "";
+  width: 0%;
+  height: 1px;
+  background-color: var(--cor-0);
+  margin-top: 40px;
+  transition: 0.34s;
+}
+.footer-central a:hover::after {
+  background-color: white;
+  width: 100%;
+}
+.footer-endereco a {
+  color: var(--cor-0);
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+}
+.footer-endereco a:hover {
+  color: var(--cor-6);
+}
+.footer-informacao {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding-left: 64px;
+  padding-right: 64px;
+  gap: 20px;
+}
+.footer-empresa h3 {
+  color: var(--cor-0);
+  margin-bottom: 18px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+.footer-empresa li {
+  margin-bottom: 16px;
+}
+.footer-empresa li a {
+  color: var(--cor-0);
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+}
+.footer-empresa li a:hover {
+  color: var(--cor-6);
 }
