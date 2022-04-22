@@ -259,3 +259,74 @@ form h3 {
 .footer-empresa li a:hover {
   color: var(--cor-6);
 }
+.footer-redes img{
+    width: 20px;
+}
+.footer-redes{
+    background-color: var(--cor-12);
+    padding-bottom: 60px;
+    padding-top: 60px;
+}
+
+.redes-container{
+    max-width: 1280px;
+    padding-left: 64px;
+    padding-right: 64px;
+    margin: 0 auto;
+}
+.redes{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    padding-bottom: 50px;
+}
+.redes-conteudo{
+    display: flex;
+    gap: 40px;
+}
+.store img{
+    width: 127px;
+    margin-left: 10px;  
+}
+.store {
+    display: flex;
+    justify-content: flex-end;
+}
+.footer-local{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+.footer-local a{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    color: var(--cor-0);
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+}
+.footer-rodape{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-rodape a{
+    color: var(--cor-6);
+    font-size: 12px;
+    font-family: "Roboto", sans-serif;
+}
+.footer-rodape a:hover{
+    text-decoration: underline;
+}
+.footer-rodape p{
+    color: var(--cor-6);
+    font-size: 12px;
+    font-family: "Roboto", sans-serif;
+}
+.footer-rodape span:hover{
+    text-decoration: underline;
+}
+.footer-termos{
+    display: flex;
+    gap: 20px;
+}
