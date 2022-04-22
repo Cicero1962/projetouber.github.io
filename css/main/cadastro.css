@@ -297,6 +297,14 @@ form h3 {
     gap: 30px;
     align-items: center;
 }
+.footer-local p:hover{
+    text-decoration: underline;
+}
+.footer-local .idioma:hover{
+    padding: 10px 20px;
+    background-color: var(--cor-10);
+    outline: 0;
+}
 .footer-local a{
     display: flex;
     gap: 10px;
